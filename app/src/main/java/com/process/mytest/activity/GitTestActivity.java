@@ -20,5 +20,8 @@ public class GitTestActivity extends AppCompatActivity {
         Log.d(TAG, "test1: 第二次提交");
     }
 
+    private void update(){
+        Log.d(TAG, "update: 回退到第二次提交进行修改代码");
+    }
 
 }
