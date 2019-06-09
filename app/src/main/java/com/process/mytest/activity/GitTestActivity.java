@@ -16,7 +16,7 @@ public class GitTestActivity extends AppCompatActivity {
     }
 
     private void test1(){
-        Log.d(TAG, "test1: ");
+        Log.d(TAG, "test1: 第一次提交");
     }
 
 
