@@ -26,4 +26,7 @@ public class GitTestActivity extends AppCompatActivity {
         Log.d(TAG, "update: 再次回退到这里进行修改");
     }
 
+    private void test2(){
+        Log.d(TAG, "test2: 本地提交");
+    }
 }
