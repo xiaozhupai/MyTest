@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.process.mytest.activity.GitTestActivity;
+import com.process.mytest.activity.FactoryActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -35,7 +35,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.bt:
                 Toast.makeText(this, "skip onclick...", Toast.LENGTH_SHORT).show();
-                toSkip(GitTestActivity.class);
+//                toSkip(GitTestActivity.class);
+                toSkip(FactoryActivity.class);
                 break;
         }
     }

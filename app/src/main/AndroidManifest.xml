@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.GitTestActivity"></activity>
+        <activity android:name=".activity.GitTestActivity" />
+        <activity android:name=".activity.FactoryActivity"></activity>
     </application>
 
 </manifest>
